@@ -17,14 +17,14 @@
 AideAI NAVI 具備自主推理與決策、動態工具調用等核心功能，主要分為以下五大維度：
 
 - 🧭 Navigate (AI 導航決策)：AI Insights 與專家智慧 SOP，提供即時 AI Insights 分析與高風險預警，並執行 NAVI 巡檢任務。
-- 🤖 Automate (自動化)：執行關鍵任務與資料匯整 。支援 AI 任務派送 、SOP 自動執行 與巡檢自動化 ，大幅簡化維運流程 。
-- 👁️ Visualize (可視化)：提供即時監控 Dashboard 、AI Summary 以及異常事件 Summary ，實現維運全貌視覺化。
+- 🤖 Automate (自動化)：執行關鍵任務與資料匯整。支援 AI 任務派送、SOP 自動執行與巡檢自動化，大幅簡化維運流程。
+- 👁️ Visualize (可視化)：提供即時監控 Dashboard、AI Summary 及異常事件 Summary，實現維運全貌視覺化。
 - 🧠 Intelligence (智能分析)：系統能即時進行異常事件與 CPU / Memory 波動分析；同時結合趨勢預測與 Root Cause 推論，協助團隊精準定位問題根本原因。
 ![核心能力](images/core%20values.jpg )
 
 ## 🛠️ 技術架構
 
-- AideAI NAVI 採用 AI Agent 架構整合多種維運能力， AI Agent 可透過工具調用、資料分析、知識檢索，協助完成維運任務。
+- AideAI NAVI 採用 AI Agent 架構整合多種維運能力，AI Agent 可透過工具調用、資料分析、知識檢索，協助完成維運任務。
 ![架構圖](images/architecture.jpg )
 
 - AI 模型與推論：OpenAI、Ollama、Hugging Face 
